@@ -1,6 +1,13 @@
 # Self Hosting
 I wrote this guide to help me setup and configure VPS machines securely. 
 
+## Where to obtain a VPS
+There are many popular services (e.g. [Digital Ocean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/), etc.) to obtain a VPS. However, as a broke college student, these options can be pretty expensive. Here is a list of much cheaper providers:
+- [Hetzner](https://www.hetzner.com/cloud/)
+- [Netcup](https://www.netcup.com/en/server/vps)
+- [Crunchbits](https://crunchbits.com/vps)
+- [Contabo](https://contabo.com/en/vps/)
+
 ## Connect to your VPS with SSH
 Use the following command to connect to your VPS from your local machine. 
 ```bash
