@@ -77,11 +77,12 @@ sudo service ssh restart
 ```
 
 ## Set up a basic firewall
-Use the following commands to set up a basic firewall using UFW (Uncomplicated Firewall). Only open the ports that are necessary for your VPS. The code below opens ports for OpenSSH and Nginx.
+Use the following commands to set up a basic firewall using UFW (Uncomplicated Firewall). Only open the ports that are necessary for your VPS. The code below opens ports for OpenSSH, HTTP, and HTTPS.
 ```bash
 sudo apt install ufw
 sudo ufw allow OpenSSH
-sudo ufw allow "Nginx Full"
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
 sudo ufw enable
 ```
 
